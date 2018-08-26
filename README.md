@@ -274,6 +274,13 @@ Finally configure YCM:
 
     cd ~/.vim/bundle/YouCompleteMe 
     ./install.py --clang-completer --tern-completer
+    
+    Possible workaround: 
+    sudo apt-get remove cmake 
+    sudo apt-get update 
+    sudo apt-get upgrade 
+    sudo apt-get install cmake3
+    python3 install.py
 
 Installing Command-T:
 ---------------------
