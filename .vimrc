@@ -1,5 +1,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+" VIM arrow keys not functioning properly on windows
+:set term=builtin_ansi
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
